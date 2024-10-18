@@ -1,0 +1,51 @@
+{
+  "name": "vue3.5",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@stylistic/stylelint-plugin": "^3.0.1",
+    "@types/node": "^22.5.5",
+    "@unocss/eslint-config": "^0.62.3",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "cz-git": "^1.9.4",
+    "eslint": "^9.10.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "husky": "^9.1.6",
+    "less": "^4.2.0",
+    "lint-staged": "^15.2.10",
+    "postcss-html": "^1.7.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "stylelint": "^16.9.0",
+    "stylelint-config-recess-order": "^5.1.0",
+    "stylelint-config-recommended-less": "^3.0.1",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-prettier": "^5.0.2",
+    "typescript": "~5.5.2",
+    "typescript-eslint": "^8.5.0",
+    "unocss": "^0.62.3",
+    "vite": "^5.4.1",
+    "vue-eslint-parser": "^9.4.3",
+    "vue-tsc": "^2.0.29"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git",
+      "czConfig": "./commitlint.config.mjs"
+    }
+  }
+}
